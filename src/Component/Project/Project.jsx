@@ -5,6 +5,8 @@ import project1 from '../../Assets/project1.png'
 import project2 from '../../Assets/project2.png'
 import project3 from '../../Assets/project3.png'
 import project4 from '../../Assets/project4.png'
+import project5 from '../../Assets/project5.png'
+import project6 from '../../Assets/project6.png'
 
 function Project() {
   // Sample Project Data with links
@@ -32,6 +34,18 @@ function Project() {
       image: project4, 
       title: 'Score Managing panel', 
       link: 'https://cricket-score-panel.netlify.app/' 
+    },
+    { 
+      id: 5, 
+      image: project5, 
+      title: 'The Majestic peacock', 
+      link: 'https://www.themajesticpeacock.com/' 
+    },
+    { 
+      id: 5, 
+      image: project6, 
+      title: 'Anvix Clothing', 
+      link: 'https://rosy-delta.vercel.app/' 
     },
    
    
