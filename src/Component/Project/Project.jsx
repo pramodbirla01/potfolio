@@ -7,7 +7,7 @@ import project3 from '../../Assets/project3.png'
 import project4 from '../../Assets/project4.png'
 import project5 from '../../Assets/project5.png'
 import project6 from '../../Assets/project6.png'
-
+import project7 from '../../Assets/project7.png'
 function Project() {
   // Sample Project Data with links
   const projects = [
@@ -49,7 +49,7 @@ function Project() {
     },
     { 
       id: 7, 
-      image: project6, 
+      image: project7, 
       title: 'Shades Of Green Trading', 
       link: 'https://shadow-pink.vercel.app/' 
     }, 
