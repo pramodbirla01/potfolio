@@ -47,8 +47,12 @@ function Project() {
       title: 'Anvix Clothing', 
       link: 'https://rosy-delta.vercel.app/' 
     },
-   
-   
+    { 
+      id: 7, 
+      image: project6, 
+      title: 'Shades Of Green Trading', 
+      link: 'https://shadow-pink.vercel.app/' 
+    }, 
   ];
 
   // State for managing visible projects
