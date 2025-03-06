@@ -8,6 +8,7 @@ import project4 from '../../Assets/project4.png'
 import project5 from '../../Assets/project5.png'
 import project6 from '../../Assets/project6.png'
 import project7 from '../../Assets/project7.png'
+import project8 from '../../Assets/project8.png'
 function Project() {
   // Sample Project Data with links
   const projects = [
@@ -42,7 +43,7 @@ function Project() {
       link: 'https://www.themajesticpeacock.com/' 
     },
     { 
-      id: 5, 
+      id: 6, 
       image: project6, 
       title: 'Anvix Clothing', 
       link: 'https://rosy-delta.vercel.app/' 
@@ -52,7 +53,13 @@ function Project() {
       image: project7, 
       title: 'Shades Of Green Trading', 
       link: 'https://shadow-pink.vercel.app/' 
-    }, 
+    },
+    { 
+      id: 8, 
+      image: project8, 
+      title: 'RaisSpices - Pure Authentic Spices', 
+      link: 'https://raisspices.com/' 
+    },  
   ];
 
   // State for managing visible projects
