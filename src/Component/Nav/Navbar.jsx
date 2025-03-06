@@ -37,11 +37,11 @@ function Navbar() {
               About
             </a>
           </li>
-          <li className="backdrop-blur-lg bg-white/10 rounded-2xl px-6 py-2 hover:bg-cyan-500/20 transition-colors">
+          {/* <li className="backdrop-blur-lg bg-white/10 rounded-2xl px-6 py-2 hover:bg-cyan-500/20 transition-colors">
             <a href="#contact" className="text-white font-semibold text-lg">
               Contact
             </a>
-          </li>
+          </li> */}
         </ul>
 
         {/* Parent div for the burger menu and dropdown */}
@@ -69,9 +69,9 @@ function Navbar() {
               <a href="#about" onClick={closeMenu} className="hover:text-cyan-400 transition-colors">
                 About
               </a>
-              <a href="#contact" onClick={closeMenu} className="hover:text-cyan-400 transition-colors">
+              {/* <a href="#contact" onClick={closeMenu} className="hover:text-cyan-400 transition-colors">
                 Contact
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
